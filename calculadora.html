@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertidor de números</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Convertidor de números</h1>
+        <label for="number">Convertir el número</label>
+        <input type="number" name="number" id="number">
+        <label for="type">a</label>
+        <select name="type" id="type">
+            <option value="" disabled selected>Elige...</option>
+            <option value="binario">Binario</option>
+            <option value="decimal">Decimal</option>
+        </select>
+        <button type="submit" id="submit">Convertir</button>
+        <p><b id="view"></b></p>
+    </div>
+</body>
+
+</html>
+<script src="./main.js"></script>
